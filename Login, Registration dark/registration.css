@@ -14,7 +14,7 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-.login-box{
+.registration-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,18 +26,18 @@ body{
     border-radius: 10px;
 }
 
-.login-box h2{
+.registration-box h2{
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
     text-align: center;
 }
 
-.login-box .user-box{
+.registration-box .user-box{
     position: relative;
 }
 
-.login-box .user-box input{
+.registration-box .user-box input{
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -49,7 +49,7 @@ body{
     background: transparent;
 }
 
-.login-box .user-box label{
+.registration-box .user-box label{
     position: absolute;
     top: 0;
     left: 0;
@@ -60,15 +60,21 @@ body{
     transition: .5s;
 }
 
- .login-box .user-box input:focus~label,
- .login-box .user-box input:valid~label{
+ .registration-box .user-box input:focus~label,
+ .registration-box .user-box input:valid~label{
     top: -20px;
     left: 0;
     color: #03E9F4;
     font-size: 12px;
  }
 
- .forgot-password{
+ .forgot-password {
+    font-size: 12px;
+    color: #5b6b8b;
+    float: right;
+ }
+
+ .login {
     font-size: 12px;
     color: #5b6b8b;
     float: right;
